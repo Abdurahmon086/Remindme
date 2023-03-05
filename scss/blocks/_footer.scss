@@ -1,0 +1,232 @@
+footer {
+    padding: 75px 0 135px 0;
+
+    .foo {
+        display: flex;
+        justify-content: space-between;
+
+
+        &__text {
+            line-height: 36px;
+            color: #747474;
+            max-width: 387px;
+            margin-top: 30px;
+        }
+
+        &__title {
+            font-weight: 600;
+            font-size: 24px;
+            color: #000000;
+
+        }
+
+        &__midle {
+            display: flex;
+            column-gap: 96px;
+            margin-top: 36px;
+        }
+
+        &__list {
+            margin-top: 58px;
+        }
+
+        &__item {
+            margin: 0;
+            margin-left: 20px;
+
+            &::before {
+                content: "\2022";
+                color: #2D76F9;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+        }
+
+        &__link {
+            color: #747474;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top: 36px;
+        }
+
+        &__social {
+            display: flex;
+            column-gap: 40px;
+            margin-top: 58px;
+
+            img {
+                width: 36px;
+                height: 36px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    footer {
+        padding: 55px 0 115px 0;
+
+        .foo {
+
+            img {
+                width: 270px;
+                height: 80px;
+            }
+
+            &__text {
+                line-height: 26px;
+            }
+
+            &__title {
+                font-size: 20px;
+            }
+
+            &__midle {
+                column-gap: 76px;
+                margin-top: 23px;
+            }
+
+            &__list {
+                margin-top: 45px;
+            }
+
+            &__item {
+                margin-left: 20px;
+
+                &::before {
+                    content: "\2022";
+                    color: #2D76F9;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+            }
+
+            &__link {
+                color: #747474;
+            }
+
+            &__right {
+                margin-top: 25px;
+            }
+
+            &__social {
+                column-gap: 20px;
+                margin-top: 45px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+
+        .foo {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 250px;
+                height: 80px;
+            }
+
+            &__text {
+                text-align: left;
+            }
+
+            &__right {
+                align-items: center;
+                justify-content: center;
+            }
+
+            &__social {
+                column-gap: 20px;
+                margin-top: 45px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    footer {
+
+        .foo {
+            justify-content: flex-start;
+            align-items: flex-start;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    footer {
+
+        .foo {
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            &__text {
+                line-height: 36px;
+                color: #747474;
+                max-width: 387px;
+                margin-top: 30px;
+            }
+
+            &__title {
+                font-size: 24px;
+            }
+
+            &__text {
+                font-size: 18px;
+            }
+
+            &__midle {
+                column-gap: 68px;
+                margin-top: 40px;
+            }
+
+            &__list {
+                margin-top: 30px;
+            }
+
+            &__right {
+                margin-top: 30px;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    footer {
+
+        .foo {
+
+
+            &__midle {
+                flex-direction: column;
+                margin-top: 30px;
+                row-gap: 30px;
+            }
+
+        }
+    }
+}
