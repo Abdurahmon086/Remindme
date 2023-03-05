@@ -1,0 +1,139 @@
+.think {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 147px;
+
+    &__left {
+        border: 1.5px solid #FFFFFF;
+        border-radius: 1500px;
+        width: 100%;
+        height: 600px;
+        background: #EEF4FF;
+        border-radius: 0 100px 100px 0px;
+        margin-left: calc(-50vw + 50%);
+        background-image: url(../../images/think.png);
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 65px;
+    }
+
+    &__card {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        column-gap: 31px;
+
+        .card {
+            &__title {
+                font-weight: 600;
+                line-height: 27px;
+            }
+
+            &__text {
+                font-size: 14px;
+                line-height: 21px;
+                color: #747474;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    &__text {
+        margin-top: 49px;
+        max-width: 493px;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        column-gap: 30px;
+    }
+
+    &__btn {
+        background: none;
+        border: none;
+
+        img {
+            width: 31px;
+            height: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .think {
+        margin-top: 120px;
+        margin-bottom: 120px;
+        column-gap: 107px;
+
+        &__left {
+            height: 500px;
+            background-position-x: right;
+        }
+
+        &__title {
+            font-size: 28px;
+            line-height: 55px;
+        }
+
+        &__card {
+            margin-top: 35px;
+            column-gap: 25px;
+
+            .card {
+                &__title {
+                    line-height: 20px;
+                }
+
+                &__text {
+                    font-size: 12px;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        &__text {
+            font-size: 16px;
+            margin-top: 25px;
+        }
+
+        &__bottom {
+            margin-top: 40px;
+        }
+
+        &__btn {
+
+            img {
+                width: 25px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .think {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        column-gap: 0;
+
+        &__left {
+            display: none;
+        }
+
+        &__bottom {
+            justify-content: center;    
+        }
+    }
+}
