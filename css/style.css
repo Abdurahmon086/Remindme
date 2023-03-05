@@ -676,6 +676,36 @@ header .head__menu {
     left: 150px;
   }
 }
+@media only screen and (max-width: 627px) {
+  .hero {
+    margin-top: 120px;
+    align-items: flex-start;
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 50px;
+  }
+  .hero__right {
+    width: 100vw;
+    max-width: 100vw;
+    height: 850px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0 calc(-50vw + 50%);
+    background-position-x: -196px, 499px;
+    background-position-y: -241px, 554px;
+  }
+  .hero__inner {
+    background-position-x: center;
+  }
+  .hero__use {
+    left: 70px;
+  }
+  .hero__ui {
+    left: 320px;
+  }
+  .hero__download {
+    left: 150px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .hero__use {
     font-size: 10px;
@@ -690,7 +720,7 @@ header .head__menu {
   }
   .hero__ui {
     font-size: 10px;
-    left: 380px;
+    left: 300px;
   }
   .hero__ui .ui__title {
     font-size: 14px;
@@ -701,6 +731,144 @@ header .head__menu {
   }
   .hero__download {
     left: 41px;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .hero__title {
+    font-size: 48px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .hero__text {
+    font-size: 18px;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
+  }
+  .hero__btn {
+    padding: 24px 58px;
+    margin-top: 40px;
+  }
+  .hero__right {
+    height: 500px;
+  }
+  .hero__inner {
+    background-size: 164px;
+  }
+  .hero__use {
+    padding: 6px 7px;
+    max-width: 120px;
+    top: 101px;
+    border-radius: 13.8889px;
+    left: 120px;
+  }
+  .hero__use .use__title {
+    font-size: 12.8px;
+    line-height: 19px;
+  }
+  .hero__use .use__title span {
+    padding: 3px 12px;
+  }
+  .hero__ui {
+    max-width: 170px;
+    padding: 7px;
+    left: 290px;
+    top: 201px;
+    border-radius: 13.8889px;
+  }
+  .hero__ui .ui__title {
+    font-size: 13.3333px;
+    line-height: 20px;
+  }
+  .hero__ui .ui__title span {
+    font-size: 13.3333px;
+    line-height: 20px;
+    padding: 3px 10px;
+  }
+  .hero__download {
+    border-radius: 13.8889px;
+    height: 75px;
+    max-width: 140px;
+    padding: 11px 12px 6px 13px;
+    top: 310px;
+    left: 120px;
+  }
+  .hero__download span {
+    font-size: 27.648px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+  }
+  .hero__download .download__text {
+    font-size: 8.064px;
+    line-height: 12px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .hero__title {
+    font-size: 48px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .hero__text {
+    font-size: 18px;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
+  }
+  .hero__btn {
+    padding: 24px 58px;
+    margin-top: 40px;
+  }
+  .hero__right {
+    height: 500px;
+  }
+  .hero__inner {
+    background-size: 164px;
+  }
+  .hero__use {
+    padding: 6px 7px;
+    max-width: 120px;
+    top: 101px;
+    border-radius: 13.8889px;
+  }
+  .hero__use .use__title {
+    font-size: 12.8px;
+    line-height: 19px;
+  }
+  .hero__use .use__title span {
+    padding: 3px 12px;
+  }
+  .hero__ui {
+    max-width: 170px;
+    padding: 7px;
+    left: 220px;
+    top: 201px;
+    border-radius: 13.8889px;
+  }
+  .hero__ui .ui__title {
+    font-size: 13.3333px;
+    line-height: 20px;
+  }
+  .hero__ui .ui__title span {
+    font-size: 13.3333px;
+    line-height: 20px;
+    padding: 3px 10px;
+  }
+  .hero__download {
+    border-radius: 13.8889px;
+    height: 75px;
+    max-width: 140px;
+    padding: 11px 12px 6px 13px;
+    top: 310px;
+  }
+  .hero__download span {
+    font-size: 27.648px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+  }
+  .hero__download .download__text {
+    font-size: 8.064px;
+    line-height: 12px;
   }
 }
 @media only screen and (max-width: 414px) {
@@ -741,7 +909,7 @@ header .head__menu {
   .hero__ui {
     max-width: 170px;
     padding: 7px;
-    left: 218px;
+    left: 190px;
     top: 201px;
     border-radius: 13.8889px;
   }
@@ -760,6 +928,146 @@ header .head__menu {
     max-width: 140px;
     padding: 11px 12px 6px 13px;
     top: 310px;
+  }
+  .hero__download span {
+    font-size: 27.648px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+  }
+  .hero__download .download__text {
+    font-size: 8.064px;
+    line-height: 12px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .hero__title {
+    font-size: 48px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .hero__text {
+    font-size: 18px;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
+  }
+  .hero__btn {
+    padding: 24px 58px;
+    margin-top: 40px;
+  }
+  .hero__right {
+    height: 500px;
+  }
+  .hero__inner {
+    background-size: 164px;
+  }
+  .hero__use {
+    padding: 6px 7px;
+    max-width: 120px;
+    top: 101px;
+    border-radius: 13.8889px;
+    left: 40px;
+  }
+  .hero__use .use__title {
+    font-size: 12.8px;
+    line-height: 19px;
+  }
+  .hero__use .use__title span {
+    padding: 3px 12px;
+  }
+  .hero__ui {
+    max-width: 170px;
+    padding: 7px;
+    left: 150px;
+    top: 201px;
+    border-radius: 13.8889px;
+  }
+  .hero__ui .ui__title {
+    font-size: 13.3333px;
+    line-height: 20px;
+  }
+  .hero__ui .ui__title span {
+    font-size: 13.3333px;
+    line-height: 20px;
+    padding: 3px 10px;
+  }
+  .hero__download {
+    border-radius: 13.8889px;
+    height: 75px;
+    max-width: 140px;
+    padding: 11px 12px 6px 13px;
+    top: 310px;
+    left: 40px;
+  }
+  .hero__download span {
+    font-size: 27.648px;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+  }
+  .hero__download .download__text {
+    font-size: 8.064px;
+    line-height: 12px;
+  }
+}
+@media only screen and (max-width: 343px) {
+  .hero__title {
+    font-size: 48px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .hero__text {
+    font-size: 18px;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 30px;
+  }
+  .hero__btn {
+    padding: 24px 58px;
+    margin-top: 40px;
+  }
+  .hero__right {
+    height: 500px;
+  }
+  .hero__inner {
+    background-size: 164px;
+  }
+  .hero__use {
+    padding: 6px 7px;
+    max-width: 120px;
+    top: 101px;
+    border-radius: 13.8889px;
+    left: 40px;
+  }
+  .hero__use .use__title {
+    font-size: 12.8px;
+    line-height: 19px;
+  }
+  .hero__use .use__title span {
+    padding: 3px 12px;
+  }
+  .hero__ui {
+    max-width: 170px;
+    padding: 7px;
+    left: 150px;
+    top: 201px;
+    border-radius: 13.8889px;
+  }
+  .hero__ui .ui__title {
+    font-size: 13.3333px;
+    line-height: 20px;
+  }
+  .hero__ui .ui__title span {
+    font-size: 13.3333px;
+    line-height: 20px;
+    padding: 3px 10px;
+  }
+  .hero__download {
+    border-radius: 13.8889px;
+    height: 75px;
+    max-width: 140px;
+    padding: 11px 12px 6px 13px;
+    top: 310px;
+    left: 40px;
   }
   .hero__download span {
     font-size: 27.648px;
