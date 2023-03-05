@@ -1,0 +1,130 @@
+.about {
+
+    &__wrapper {
+        padding: 100px;
+        background: #2D76F9;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        background-image: url(../../images/btn-bg.png), url(../../images/btn-bg.png);
+        background-repeat: no-repeat;
+        background-position-x: -190px, 1050px;
+        background-position-y: -190px, 310px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 65px;
+        color: #FFFFFF;
+        max-width: 750px;
+        text-align: center;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+        margin-top: 95px;
+    }
+
+    &__btn {
+        background: #FFFFFF;
+        border-radius: 1500px;
+        font-weight: 500;
+        line-height: 27px;
+        color: #2D76F9;
+        padding: 24px 58px;
+        border: none;
+
+        &-light {
+            background: none;
+            border: 1.5px solid #FFFFFF;
+            border-radius: 1500px;
+            font-weight: 500;
+            line-height: 27px;
+            color: #FFFFFF;
+            padding: 24px 77px;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about {
+
+        &__wrapper {
+            padding: 50px;
+            margin-top: 120px;
+            background-position-x: -190px, 750px;
+            background-position-y: -190px, 180px;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 55px;
+        }
+
+        &__bottom {
+            column-gap: 30px;
+            margin-top: 85px;
+        }
+
+        &__btn {
+            padding: 20px 52px;
+
+            &-light {
+                padding: 20px 72px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        &__wrapper {
+            padding: 50px;
+            margin-top: 120px;
+            background-position-x: -150px, 550px;
+            background-position-y: -150px, 290px;
+            background-size: 302px, 302px;
+        }
+
+        &__bottom {
+            flex-direction: column;
+            row-gap: 25px;
+            column-gap: 0;
+            margin-top: 75px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .about {
+        &__wrapper {
+            margin-top: 50px;
+        }
+
+        &__title {
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        &__btn {
+            font-size: 18px;
+            line-height: 27px;
+            padding: 24px 58px;
+
+            &-light {
+                font-size: 18px;
+                line-height: 27px;
+                padding: 24px 77px;
+            }
+        }
+
+    }
+
+}
